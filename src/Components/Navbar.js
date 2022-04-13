@@ -5,17 +5,21 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <>
-      <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
+    <div className="navbar-container">
+      <div className="navbar-logo">
+        <Link to="/">
           <img id="navbar-logo-image" src={logo} />
         </Link>
-        <div className="navbar-links">
-          <Link to="/">Projects</Link>
-          <Link to="/">About Me</Link>
-        </div>
       </div>
-    </>
+      <div className="navbar-links-center">
+        <p>Frog</p>
+        <p>Snow</p>
+      </div>
+      <div className="navbar-links-right">
+        <p>Projects</p>
+        <p>About Me</p>
+      </div>
+    </div>
   );
 }
 

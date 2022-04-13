@@ -1,4 +1,5 @@
 .navbar-container {
+  display: flex;
   background-color: transparent;
   background: none;
   position: fixed;
@@ -7,24 +8,31 @@
   margin: 15px;
   margin-top: 15px;
   z-index: 100;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 #navbar-logo-image {
-  height: 1.5cm;
-  margin: 0.25cm;
+  height: 40px;
+  margin-top: 0px;
 }
 
-.navbar-links {
-  float: right;
-  margin-top: 0.9cm;
-  margin-right: 0.7cm;
-  display: grid;
-  grid-template-columns: 100px 100px;
+.navbar-links-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-  font-family: "arial";
-  font-weight: bold;
+.navbar-links-center > p {
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-links-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links-right > p {
+  margin: 10px;
+  text-transform: uppercase;
 }
