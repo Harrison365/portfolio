@@ -1,0 +1,30 @@
+.navbar-container {
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  margin: 15px;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+#navbar-logo-image {
+  height: 1.5cm;
+  margin: 0.25cm;
+}
+
+.navbar-links {
+  float: right;
+  margin-top: 0.9cm;
+  margin-right: 0.7cm;
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "arial";
+  font-weight: bold;
+}
