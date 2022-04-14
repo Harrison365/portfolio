@@ -12,13 +12,15 @@ function Navbar() {
         </Link>
       </div>
       <div className="navbar-links-center">
-        <p>Frog</p>
-        <p>Snow</p>
+        <p>About Me</p>
+        <p>Back-End</p>
+        <p>Front End</p>
+        <p>Another</p>
       </div>
-      <div className="navbar-links-right">
+      {/* <div className="navbar-links-right">
         <p>Projects</p>
         <p>About Me</p>
-      </div>
+      </div> */}
     </div>
   );
 }

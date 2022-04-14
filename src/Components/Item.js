@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Arrow from "../Pictures/down-arrow.png";
+import "./Item.css";
 
 function Item({
   title,
@@ -7,12 +9,13 @@ function Item({
   backgroundImg,
   leftBtnTxt,
   leftBtnLink,
-  righBtnTxt,
+  rightBtnTxt,
   rightBtnLink,
   twoButtons,
+  arrow,
 }) {
   return (
-    <div className="item" style={{}}>
+    <div className="item" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <div className="item-container">
         <div className="item-text">
           <p>{title}</p>
@@ -26,6 +29,11 @@ function Item({
             {/* Here we are conditionally rendering the second button depending on if twoButtons passed is true or not. vvv */}
             {twoButtons && <Button imp="secondary" text={rightBtnTxt} />}
           </div>
+          {arrow && (
+            <div className="down-arrow">
+              <img id="down-arrow-image" src={Arrow} />
+            </div>
+          )}
         </div>
       </div>
     </div>

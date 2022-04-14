@@ -25,9 +25,10 @@
 .navbar-links-center > p {
   margin: 10px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-.navbar-links-right {
+/* .navbar-links-right {
   display: flex;
   justify-content: flex-end;
 }
@@ -35,4 +36,5 @@
 .navbar-links-right > p {
   margin: 10px;
   text-transform: uppercase;
-}
+  font-weight: bold;
+} */
