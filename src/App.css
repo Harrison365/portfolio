@@ -1,11 +1,10 @@
-.item-cards-container {
+/* .item-cards-container {
   scroll-snap-type: y mandatory;
   overflow: auto;
   height: 100vh;
-}
+} */
 
-/* hide scrollbars vvv*/
-* {
+hide scrollbars vvv * {
   -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
