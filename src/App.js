@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Homepage />
-      hello joe
+
       {/* Routes here to get home page and about me (see fe-nc-news) */}
     </div>
   );
