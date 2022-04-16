@@ -30,7 +30,7 @@ function Item({
             <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
             {/* Here we are conditionally rendering the second button depending on if twoButtons passed is true or not. vvv */}
             {twoButtons === "true" && (
-              <Button imp="secondary" text={rightBtnTxt} />
+              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
             )}
           </div>
           {/* {arrow && (

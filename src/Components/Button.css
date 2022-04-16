@@ -8,6 +8,7 @@
   align-items: center;
   border-radius: 100px;
   opacity: 0.85;
+  justify-content: center;
 }
 
 .button > a {
@@ -15,7 +16,6 @@
   color: white;
   font-size: 15px;
   text-align: center;
-  margin-left: 2cm;
 }
 
 .button-white {
@@ -28,6 +28,7 @@
   align-items: center;
   border-radius: 100px;
   opacity: 0.65;
+  justify-content: center;
 }
 
 .button-white > a {
@@ -35,5 +36,4 @@
   color: black;
   font-size: 15px;
   text-align: center;
-  margin-left: 2.3cm;
 }
