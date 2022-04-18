@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about-me-main {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-square {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  opacity: 30%;
+  position: absolute;
+  border-radius: 0.75%;
+}
