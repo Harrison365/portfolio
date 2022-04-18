@@ -8,11 +8,11 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function App() {
+  //AOS setup vvv
   useEffect(() => {
     Aos.init({ duration: 2000 });
     Aos.refresh();
   }, []);
-
   return (
     <div className="App">
       <Navbar />

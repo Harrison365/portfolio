@@ -20,8 +20,16 @@ video {
 .profile-square {
   width: 80%;
   height: 80%;
-  background-color: black;
-  opacity: 30%;
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   border-radius: 0.75%;
+}
+
+.box-text {
+  margin: 1cm;
+  color: white;
+}
+
+.about-me-h1 {
+  align-self: center;
 }
