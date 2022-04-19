@@ -21,13 +21,13 @@ function AboutMe() {
           <h2>
             Hello. I am a full-stack software developer looking for a new
             project. I am passionate about creating great software and hungry
-            for continuous learning.
+            for continuous learning and improvement.
           </h2>
           <h3>Tech-Stack Experience</h3>
           <li>Language: JavaScript;</li>
           <li>Front End: React, React-Native, CSS, HTML, Node.js;</li>
           <li>Backend: Express, PostgreSQL, Firebase, Node.js; </li>
-          <li>Testing: Jest</li>
+          <li>Testing: Test Driven Development using Jest</li>
 
           <div className="buttons-container">
             <div className="profile-button">
