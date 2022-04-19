@@ -3,6 +3,8 @@ import Waves from "../Pictures/waves.mp4";
 import "./AboutMe.css";
 import "aos/dist/aos.css";
 import logo from "../Pictures/peace.png";
+import github from "../Pictures/github.png";
+import email from "../Pictures/email.png";
 
 function AboutMe() {
   return (
@@ -29,10 +31,21 @@ function AboutMe() {
 
           <div className="buttons-container">
             <div className="profile-button">
-              <a>Button</a>
+              <a href="mailto:harrisonroyds@yahoo.co.uk">
+                <img id="email-img" src={email} />
+              </a>
             </div>
+
             <div className="profile-button">
-              <a>Button</a>
+              <img id="github-img" src={github} alt="github" />
+            </div>
+
+            <div className="profile-button">
+              <img id="github-img" src={github} alt="github" />
+            </div>
+
+            <div className="profile-button">
+              <img id="github-img" src={github} alt="github" />
             </div>
           </div>
         </div>
