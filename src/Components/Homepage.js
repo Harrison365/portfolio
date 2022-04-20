@@ -10,7 +10,7 @@ function Homepage() {
     <div className="item-cards-container">
       <Item
         title="Hello, my name is Harrison."
-        desc="Welcome to my portfolio website. Find out 'About Me' or scroll to see my projects."
+        desc="Welcome to my portfolio website, made using React. Find out 'About Me' or scroll to see my projects."
         // descLink=""
         backgroundImg={Road}
         leftBtnTxt="About Me"

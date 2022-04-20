@@ -1,0 +1,18 @@
+import React from "react";
+import "./ErrorPage.css";
+import Balloons from "../Pictures/balloons.jpg";
+import Penguin from "../Pictures/penguin.mp4";
+
+function ErrorPage() {
+  return (
+    // <div className="container" style={{ backgroundImage: `url(${Balloons})` }}>
+    <div className="container">
+      <video src={Penguin} autoPlay loop muted />
+      <div className="error-message">
+        <h1>Error: Sorry, this page doesn't exist.</h1>
+      </div>
+    </div>
+  );
+}
+
+export default ErrorPage;

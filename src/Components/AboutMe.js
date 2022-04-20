@@ -37,15 +37,9 @@ function AboutMe() {
             </div>
 
             <div className="profile-button">
-              <img id="github-img" src={github} alt="github" />
-            </div>
-
-            <div className="profile-button">
-              <img id="github-img" src={github} alt="github" />
-            </div>
-
-            <div className="profile-button">
-              <img id="github-img" src={github} alt="github" />
+              <a href="https://github.com/harrison365">
+                <img id="github-img" src={github} alt="github" />
+              </a>
             </div>
           </div>
         </div>

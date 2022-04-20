@@ -98,7 +98,7 @@ video {
 .profile-button {
   background-color: white;
   height: 40px;
-  width: 100px;
+  width: 70px;
   margin: auto;
   display: flex;
   justify-items: center;
@@ -109,24 +109,26 @@ video {
 }
 
 .profile-button > img {
-  /* text-decoration: none;
-  color: black;
-  font-size: 15px; */
   text-align: center;
 }
 
+.profile-button > a {
+  text-align: center;
+  margin-top: 5px;
+}
+
 #github-img {
-  height: 1.5cm;
-  width: 1.5cm;
+  height: 1.6cm;
+  width: 1.6cm;
 }
 
 #email-img {
-  height: 0.7cm;
+  height: 0.8cm;
 }
 
 .buttons-container {
   display: flex;
-  width: 50%;
+  width: 20%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 1cm;
