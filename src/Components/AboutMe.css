@@ -14,13 +14,20 @@ video {
 
 .profile-square {
   width: 80%;
-  /* height: 80%; */
-  background: rgba(0, 0, 0, 0.5);
+  height: 550px;
+  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   border-radius: 0.75%;
+  margin-top: 90px;
+  margin-bottom: 70px;
   /* box-shadow: 0px 1px 10px 1px black; */
-  /* display: flex; */
-  /* justify-content: center; */
+}
+
+.upper-container {
+  height: 95px;
+  background: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 }
 
 .image-container {
@@ -28,20 +35,32 @@ video {
   display: flex;
   justify-content: center;
   width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin: auto;
-  margin-top: 1cm;
-  background-color: white;
-  box-shadow: 0px 1px 20px 1px black;
+  transform: translate(0px, 30px);
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+  border-width: 5px;
+  /* box-shadow: 0px 1px 20px 1px black; */
 }
 
-.profile-image {
-  height: 100px;
+/* .profile-image {
+  margin-top: 29px;
+  width: 80px;
+  height: 45px;
+} */
+
+.profile-letters {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 .lower-text {
   color: white;
-  margin: 20px;
+  margin: 40px;
   text-align: center;
 }
 
@@ -50,17 +69,19 @@ video {
   font-size: 40px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 50px;
 }
 .lower-text h2 {
   /* text-align: center; */
   font-size: 25px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 30px;
   font-weight: 200;
 }
 .lower-text h3 {
   /* text-align: center; */
-  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 20px;
@@ -68,7 +89,7 @@ video {
 
 .lower-text li {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 15px;
   text-align: center;
   font-weight: 200;
@@ -83,7 +104,6 @@ video {
   justify-items: center;
   align-items: center;
   border-radius: 100px;
-  opacity: 0.8;
   justify-content: center;
   box-shadow: 0px 1px 20px 1px black;
 }

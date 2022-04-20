@@ -2,7 +2,7 @@ import React from "react";
 import Waves from "../Pictures/waves.mp4";
 import "./AboutMe.css";
 import "aos/dist/aos.css";
-import logo from "../Pictures/peace.png";
+import logo from "../Pictures/infinity.png";
 import github from "../Pictures/github.png";
 import email from "../Pictures/email.png";
 
@@ -13,7 +13,8 @@ function AboutMe() {
       <div data-aos="flip-left" className="profile-square">
         <div className="upper-container">
           <div className="image-container">
-            <img className="profile-image" src={logo} alt="logo" />
+            {/* <img className="profile-image" src={logo} alt="logo" /> */}
+            <h1 className="profile-letters">HR</h1>
           </div>
         </div>
         <div className="lower-text">
