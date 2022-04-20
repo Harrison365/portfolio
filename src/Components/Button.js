@@ -1,11 +1,13 @@
 import React from "react";
 import "./Button.css";
 
-function Button({ imp, text, link }) {
+function Button({ imp, text, link, ext }) {
   return (
-    <div className={imp == "secondary" ? "button-white" : "button"}>
-      <a href={link}>{text}</a>
-    </div>
+    <a href={link} target={ext == "true" ? "_blank" : ""}>
+      <div className={imp == "secondary" ? "button-white" : "button"}>
+        <p>{text}</p>
+      </div>
+    </a>
   );
 }
 

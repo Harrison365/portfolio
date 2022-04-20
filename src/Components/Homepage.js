@@ -1,45 +1,65 @@
 import React from "react";
 import Item from "./Item";
-import Forest from "../Pictures/forest.jpg";
+import Car from "../Pictures/car.jpg";
 import Trees from "../Pictures/trees.jpg";
 import Road from "../Pictures/road.jpg";
+import Balloon from "../Pictures/balloons.jpg";
 
 function Homepage() {
   return (
     <div className="item-cards-container">
       <Item
         title="Hello, my name is Harrison."
-        desc="Welcome to my portfolio website. Please scroll to see my projects."
+        desc="Welcome to my portfolio website. Find out 'About Me' or scroll to see my projects."
         // descLink=""
         backgroundImg={Road}
         leftBtnTxt="About Me"
         leftBtnLink="/aboutme"
+        leftBtnExt="false"
         rightBtnTxt=""
         rightBtnLink=""
+        rightBtnExt=""
         twoButtons="false"
         arrow //="true"
       />
       <Item
         title="Back-End Project"
-        desc="Back-End for NC-News. Using Express and PostgreSQL"
+        desc="Back-End for NC-News. Using Express and PostgreSQL."
         // descLink=""
         backgroundImg={Trees}
         leftBtnTxt="GitHub Repository"
         leftBtnLink="https://github.com/Harrison365/NC-News-Back-End"
+        leftBtnExt="true"
         rightBtnTxt="Live API"
         rightBtnLink="https://nc-news-be-hr.herokuapp.com/api"
+        rightBtnExt="true"
         twoButtons="true"
         arrow
       />
       <Item
         title="Front-End Project"
-        desc="Front-End for NC-News. Built using React"
+        desc="Front-End for NC-News. Built using React."
         // descLink=""
-        backgroundImg={Forest}
+        backgroundImg={Balloon}
         leftBtnTxt="GitHub Repository"
         leftBtnLink="https://github.com/Harrison365/fe-nc-news"
+        leftBtnExt="true"
         rightBtnTxt="Live App"
         rightBtnLink="https://nc-news-front-end-hr.netlify.app/"
+        rightBtnExt="true"
+        twoButtons="true"
+      />
+      <Item
+        title="Full-Stack Team App"
+        desc="Social Media App. A Team-Build Utilising React-Native and Firebase."
+        // descLink=""
+        backgroundImg={Car}
+        leftBtnTxt="GitHub Repository (iOS)"
+        leftBtnLink="https://github.com/Harrison365/fe-nc-news"
+        leftBtnExt="true"
+        rightBtnTxt="Android Simulator (ExpoGo)"
+        rightBtnLink="https://expo.dev/@harrison_royds/UpShift"
+        rightBtnExt="true"
         twoButtons="true"
       />
     </div>

@@ -32,7 +32,7 @@ a {
 .navbar-links-center > p {
   margin: 10px;
   text-transform: uppercase;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* .navbar-links-right {

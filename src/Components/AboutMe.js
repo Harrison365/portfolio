@@ -2,7 +2,6 @@ import React from "react";
 import Waves from "../Pictures/waves.mp4";
 import "./AboutMe.css";
 import "aos/dist/aos.css";
-import logo from "../Pictures/infinity.png";
 import github from "../Pictures/github.png";
 import email from "../Pictures/email.png";
 

@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../Pictures/infinity.png";
 import "./Navbar.css";
+import "aos/dist/aos.css";
 
 function Navbar() {
   return (
-    <div className="navbar-container">
+    <div data-aos="fade" className="navbar-container">
       <div className="navbar-logo">
         <Link to="/">
           {/* <img className="navbar-logo-image" src={logo} /> */}

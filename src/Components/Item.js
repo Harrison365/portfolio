@@ -11,8 +11,10 @@ function Item({
   backgroundImg,
   leftBtnTxt,
   leftBtnLink,
+  leftBtnExt,
   rightBtnTxt,
   rightBtnLink,
+  rightBtnExt,
   twoButtons,
   arrow,
 }) {
@@ -27,10 +29,20 @@ function Item({
         </div>
         <div className="item-lower-third">
           <div className="item-buttons">
-            <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
+            <Button
+              imp="primary"
+              text={leftBtnTxt}
+              link={leftBtnLink}
+              ext={leftBtnExt}
+            />
             {/* Here we are conditionally rendering the second button depending on if twoButtons passed is true or not. vvv */}
             {twoButtons === "true" && (
-              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
+              <Button
+                imp="secondary"
+                text={rightBtnTxt}
+                link={rightBtnLink}
+                ext={rightBtnExt}
+              />
             )}
           </div>
           {/* {arrow && (
