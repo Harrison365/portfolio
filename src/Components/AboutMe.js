@@ -37,7 +37,7 @@ function AboutMe() {
             </div>
 
             <div className="profile-button">
-              <a href="https://github.com/harrison365">
+              <a href="https://github.com/harrison365" target="_blank">
                 <img id="github-img" src={github} alt="github" />
               </a>
             </div>

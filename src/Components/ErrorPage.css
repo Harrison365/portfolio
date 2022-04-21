@@ -1,6 +1,8 @@
 .error-message {
   margin-top: 5cm;
   position: absolute;
+  text-align: center;
+  color: black;
 }
 
 .container {

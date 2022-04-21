@@ -10,6 +10,10 @@ function ErrorPage() {
       <video src={Penguin} autoPlay loop muted />
       <div className="error-message">
         <h1>Error: Sorry, this page doesn't exist.</h1>
+        <br />
+        <a href="/">
+          <h3>Click Here to Head Home</h3>
+        </a>
       </div>
     </div>
   );
