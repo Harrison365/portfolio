@@ -28,8 +28,8 @@ function AboutMe() {
           <li>Language: JavaScript;</li>
           <li>Front End: React, React-Native, CSS, HTML, Node.js;</li>
           <li>Backend: Express, PostgreSQL, Firebase, Node.js; </li>
-          <li>Testing: Test Driven Development using Jest</li>
-          <li>Version Control: Git, GitHub</li>
+          <li>Testing: Test Driven Development using Jest;</li>
+          <li>Version Control: Git, GitHub.</li>
 
           <div className="buttons-container">
             <div className="profile-button">
