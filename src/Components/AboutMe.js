@@ -24,7 +24,7 @@ function AboutMe() {
             project. I am passionate about creating great software and hungry
             for continuous learning and improvement.
           </h2>
-          <h3>Tech-Stack Experience</h3>
+          <h3>Tech-Stack Experience:</h3>
           <li>Language: JavaScript;</li>
           <li>Front End: React, React-Native, CSS, HTML, Node.js;</li>
           <li>Backend: Express, PostgreSQL, Firebase, Node.js; </li>
