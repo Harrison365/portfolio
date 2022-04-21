@@ -4,6 +4,7 @@ import "./AboutMe.css";
 import "aos/dist/aos.css";
 import github from "../Pictures/github.png";
 import email from "../Pictures/email.png";
+import pdf from "../Pictures/Test.pdf";
 
 function AboutMe() {
   return (
@@ -33,6 +34,12 @@ function AboutMe() {
             <div className="profile-button">
               <a href="mailto:harrisonroyds@yahoo.co.uk">
                 <img id="email-img" src={email} />
+              </a>
+            </div>
+
+            <div className="profile-button">
+              <a href={pdf} target="_blank">
+                <p>CV</p>
               </a>
             </div>
 

@@ -59,7 +59,7 @@ function Homepage() {
         // descLink=""
         backgroundImg={Car}
         leftBtnTxt="GitHub Repository (iOS)"
-        leftBtnLink="https://github.com/Harrison365/fe-nc-news"
+        leftBtnLink="https://github.com/Harrison365/UpShift"
         leftBtnExt="true"
         rightBtnTxt="Android Simulator (ExpoGo)"
         rightBtnLink="https://expo.dev/@harrison_royds/UpShift"
