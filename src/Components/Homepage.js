@@ -9,6 +9,7 @@ function Homepage() {
   return (
     <div className="item-cards-container">
       <Item
+        id="home"
         title="Hello, my name is Harrison."
         desc="Welcome to my portfolio website, made using React. Find out 'About Me' or scroll to see my projects."
         // descLink=""
@@ -23,6 +24,7 @@ function Homepage() {
         arrow //="true"
       />
       <Item
+        id="back-end"
         title="Back-End Project"
         desc="Back-End for NC-News. Using Express and PostgreSQL."
         // descLink=""
@@ -37,6 +39,7 @@ function Homepage() {
         arrow
       />
       <Item
+        id="front-end"
         title="Front-End Project"
         desc="Front-End for NC-News. Built using React."
         // descLink=""
@@ -50,6 +53,7 @@ function Homepage() {
         twoButtons="true"
       />
       <Item
+        id="team-app"
         title="Full-Stack Team App"
         desc="Social Media App. A Team-Build Utilising React-Native and Firebase."
         // descLink=""

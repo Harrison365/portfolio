@@ -6,6 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Item({
+  id,
   title,
   desc,
   backgroundImg,
@@ -19,37 +20,42 @@ function Item({
   arrow,
 }) {
   return (
-    <div className="item" style={{ backgroundImage: `url(${backgroundImg})` }}>
-      <div data-aos="fade-up" className="item-container">
-        <div className="item-text">
-          <p>{title}</p>
-          <div className="item-text-desc">
-            <p>{desc}</p>
+    <div id={id}>
+      <div
+        className="item"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        <div data-aos="fade-up" className="item-container">
+          <div className="item-text">
+            <p>{title}</p>
+            <div className="item-text-desc">
+              <p>{desc}</p>
+            </div>
           </div>
-        </div>
-        <div className="item-lower-third">
-          <div className="item-buttons">
-            <Button
-              imp="primary"
-              text={leftBtnTxt}
-              link={leftBtnLink}
-              ext={leftBtnExt}
-            />
-            {/* Here we are conditionally rendering the second button depending on if twoButtons passed is true or not. vvv */}
-            {twoButtons === "true" && (
+          <div className="item-lower-third">
+            <div className="item-buttons">
               <Button
-                imp="secondary"
-                text={rightBtnTxt}
-                link={rightBtnLink}
-                ext={rightBtnExt}
+                imp="primary"
+                text={leftBtnTxt}
+                link={leftBtnLink}
+                ext={leftBtnExt}
               />
-            )}
-          </div>
-          {/* {arrow && (
+              {/* Here we are conditionally rendering the second button depending on if twoButtons passed is true or not. vvv */}
+              {twoButtons === "true" && (
+                <Button
+                  imp="secondary"
+                  text={rightBtnTxt}
+                  link={rightBtnLink}
+                  ext={rightBtnExt}
+                />
+              )}
+            </div>
+            {/* {arrow && (
             <div className="down-arrow">
               <img id="down-arrow-image" src={Arrow} />
             </div>
           )} */}
+          </div>
         </div>
       </div>
     </div>

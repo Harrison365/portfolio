@@ -8,16 +8,16 @@ function Navbar() {
   return (
     <div data-aos="fade" className="navbar-container">
       <div className="navbar-logo">
-        <Link to="/">
-          {/* <img className="navbar-logo-image" src={logo} /> */}
-          <a>HR</a>
-        </Link>
+        {/* <img className="navbar-logo-image" src={logo} /> */}
+        <a href="/" id="logo">
+          HR
+        </a>
       </div>
       <div className="navbar-links-center">
-        <p>About Me</p>
-        <p>Back-End</p>
-        <p>Front End</p>
-        <p>Another</p>
+        <a href="/#home">About Me</a>
+        <a href="/#back-end">Back-End</a>
+        <a href="/#front-end">Front-End</a>
+        <a href="/#team-app">Team-App</a>
       </div>
       {/* <div className="navbar-links-right">
         <p>Projects</p>
