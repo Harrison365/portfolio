@@ -58,7 +58,7 @@ function Homepage() {
         desc="Social Media App. A Team-Build Utilising React-Native and Firebase."
         // descLink=""
         backgroundImg={Car}
-        leftBtnTxt="GitHub Repository (iOS)"
+        leftBtnTxt="GitHub (Instructions / Demo)"
         leftBtnLink="https://github.com/Harrison365/UpShift"
         leftBtnExt="true"
         rightBtnTxt="Android Simulator (ExpoGo)"
