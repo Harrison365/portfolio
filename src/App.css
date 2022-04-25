@@ -13,6 +13,7 @@
   display: none;
 }
 
+/* better for mobile view but adds scrolling problem vvv */
 /* html,
 body {
   width: 100%;
