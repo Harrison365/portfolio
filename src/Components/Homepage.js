@@ -12,7 +12,6 @@ function Homepage() {
         id="home"
         title="Hello, my name is Harrison."
         desc="Welcome to my portfolio website, made using React. Find out 'About Me' or scroll to see my projects."
-        // descLink=""
         backgroundImg={Road}
         leftBtnTxt="About Me"
         leftBtnLink="/aboutme"
@@ -21,13 +20,11 @@ function Homepage() {
         rightBtnLink=""
         rightBtnExt=""
         twoButtons="false"
-        arrow //="true"
       />
       <Item
         id="back-end"
         title="Back-End Project"
         desc="Back-End for NC-News. Using Express and PostgreSQL."
-        // descLink=""
         backgroundImg={Trees}
         leftBtnTxt="GitHub Repository"
         leftBtnLink="https://github.com/Harrison365/NC-News-Back-End"
@@ -42,7 +39,6 @@ function Homepage() {
         id="front-end"
         title="Front-End Project"
         desc="Front-End for NC-News. Built using React."
-        // descLink=""
         backgroundImg={Balloon}
         leftBtnTxt="GitHub Repository"
         leftBtnLink="https://github.com/Harrison365/fe-nc-news"
@@ -56,7 +52,6 @@ function Homepage() {
         id="team-app"
         title="Full-Stack Team App"
         desc="Social Media App. A Team-Build Utilising React-Native and Firebase."
-        // descLink=""
         backgroundImg={Car}
         leftBtnTxt="GitHub (Instructions / Demo)"
         leftBtnLink="https://github.com/Harrison365/UpShift"

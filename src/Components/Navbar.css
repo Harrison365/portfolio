@@ -11,11 +11,6 @@
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-/* .navbar-logo-image {
-  height: 30px;
-  margin-top: 0px;
-} */
-
 a {
   text-decoration: none;
 }
@@ -55,16 +50,4 @@ a {
   text-decoration: none;
   color: black;
   padding: 5px;
-  /* font-weight: bold; */
 }
-
-/* .navbar-links-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.navbar-links-right > p {
-  margin: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-} */

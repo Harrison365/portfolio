@@ -13,7 +13,6 @@ function AboutMe() {
       <div data-aos="flip-left" className="profile-square">
         <div className="upper-container">
           <div className="image-container">
-            {/* <img className="profile-image" src={logo} alt="logo" /> */}
             <h1 className="profile-letters">HR</h1>
           </div>
         </div>

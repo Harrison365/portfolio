@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Button from "./Button";
-import Arrow from "../Pictures/down-arrow.png";
 import "./Item.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -40,7 +39,7 @@ function Item({
                 link={leftBtnLink}
                 ext={leftBtnExt}
               />
-              {/* Here we are conditionally rendering the second button depending on if twoButtons passed is true or not. vvv */}
+              {/* conditionally rendering second button if twoButtons === true */}
               {twoButtons === "true" && (
                 <Button
                   imp="secondary"
@@ -50,11 +49,6 @@ function Item({
                 />
               )}
             </div>
-            {/* {arrow && (
-            <div className="down-arrow">
-              <img id="down-arrow-image" src={Arrow} />
-            </div>
-          )} */}
           </div>
         </div>
       </div>

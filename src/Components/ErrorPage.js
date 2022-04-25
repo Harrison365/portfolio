@@ -5,7 +5,6 @@ import Penguin from "../Pictures/penguin.mp4";
 
 function ErrorPage() {
   return (
-    // <div className="container" style={{ backgroundImage: `url(${Balloons})` }}>
     <div className="container">
       <video src={Penguin} autoPlay loop muted />
       <div className="error-message">
