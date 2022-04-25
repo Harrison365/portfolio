@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function App() {
-  //AOS setup vvv
+  //AOS setup
   useEffect(() => {
     AOS.init({ duration: 2000 });
     AOS.refresh();
