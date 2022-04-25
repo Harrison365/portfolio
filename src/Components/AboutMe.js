@@ -4,7 +4,7 @@ import "./AboutMe.css";
 import "aos/dist/aos.css";
 import github from "../Pictures/github.png";
 import email from "../Pictures/email.png";
-import pdf from "../Pictures/Test.pdf";
+import pdf from "../Pictures/HarrisonRoydsCV.pdf";
 
 function AboutMe() {
   return (
