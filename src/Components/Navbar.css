@@ -42,7 +42,8 @@ a {
   flex: 1;
   display: flex;
   justify-content: center;
-  margin-right: 2cm;
+  padding-right: 2cm;
+  width: 50%;
 }
 
 .navbar-links-center > a {
