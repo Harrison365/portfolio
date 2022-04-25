@@ -1,4 +1,4 @@
-## Welcome To My Portfolio
+## Welcome To My Portfolio
 
 Please use this link to see the complete and deployed verion https://harrison-r-portfolio.netlify.app
 
