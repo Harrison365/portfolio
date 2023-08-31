@@ -18,6 +18,8 @@ function Item({
   twoButtons,
   threeButtons,
   thirdBtnTxt,
+  thirdBtnLink,
+  thirdBtnExt,
   fourthButtons,
   fourthBtnExt,
   fourthBtnTxt,
