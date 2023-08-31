@@ -30,7 +30,7 @@ function Homepage() {
         leftBtnLink="https://github.com/Harrison365/NC-News-Back-End"
         leftBtnExt="true"
         rightBtnTxt="Live API"
-        rightBtnLink="https://nc-news-be-hr.herokuapp.com/api"
+        rightBtnLink="https://nc-news-back-end-zg12.onrender.com/api"
         rightBtnExt="true"
         twoButtons="true"
         arrow
