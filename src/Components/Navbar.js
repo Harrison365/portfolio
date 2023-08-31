@@ -22,6 +22,12 @@ function Navbar() {
         <NavHashLink to="/#front-end">
           <p>Front-End</p>
         </NavHashLink>
+        <NavHashLink to="/#dom">
+          <p>DOM-Manipulation</p>
+        </NavHashLink>
+        <NavHashLink to="/#leccysource">
+          <p>3rd Party API</p>
+        </NavHashLink>
         <NavHashLink to="/#team-app">
           <p>Team-App</p>
         </NavHashLink>

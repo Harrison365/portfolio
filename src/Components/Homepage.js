@@ -51,7 +51,7 @@ function Homepage() {
         twoButtons="true"
       />
       <Item
-        id="DOM Manipulation Projects"
+        id="dom"
         title="DOM Manipulation Projects"
         desc="HTML, CSS and JavaScript"
         backgroundImg={beach}
