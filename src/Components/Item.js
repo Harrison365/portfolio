@@ -58,8 +58,8 @@ function Item({
                 <Button
                   imp="primary"
                   text={thirdBtnTxt}
-                  link={rightBtnLink}
-                  ext={rightBtnExt}
+                  link={thirdBtnLink}
+                  ext={thirdBtnExt}
                 />
               )}
               {fourthButtons === "true" && (
