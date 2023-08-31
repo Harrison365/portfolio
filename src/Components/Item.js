@@ -16,6 +16,12 @@ function Item({
   rightBtnLink,
   rightBtnExt,
   twoButtons,
+  threeButtons,
+  thirdBtnTxt,
+  fourthButtons,
+  fourthBtnExt,
+  fourthBtnTxt,
+  fourthBtnLink,
   arrow,
 }) {
   return (
@@ -46,6 +52,22 @@ function Item({
                   text={rightBtnTxt}
                   link={rightBtnLink}
                   ext={rightBtnExt}
+                />
+              )}
+              {threeButtons === "true" && (
+                <Button
+                  imp="primary"
+                  text={thirdBtnTxt}
+                  link={rightBtnLink}
+                  ext={rightBtnExt}
+                />
+              )}
+              {fourthButtons === "true" && (
+                <Button
+                  imp="secondary"
+                  text={fourthBtnTxt}
+                  link={fourthBtnLink}
+                  ext={fourthBtnExt}
                 />
               )}
             </div>

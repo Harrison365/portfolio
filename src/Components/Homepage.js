@@ -1,6 +1,8 @@
 import React from "react";
 import Item from "./Item";
 import Car from "../Pictures/car.jpg";
+import beach from "../Pictures/beach.jpg";
+import lavendar from "../Pictures/lavendar.jpg";
 import Trees from "../Pictures/trees.jpg";
 import Road from "../Pictures/road.jpg";
 import Balloon from "../Pictures/balloons.jpg";
@@ -45,6 +47,40 @@ function Homepage() {
         leftBtnExt="true"
         rightBtnTxt="Live App"
         rightBtnLink="https://nc-news-front-end-hr.netlify.app/"
+        rightBtnExt="true"
+        twoButtons="true"
+      />
+      <Item
+        id="DOM Manipulation Projects"
+        title="DOM Manipulation Projects"
+        desc="HTML, CSS and JavaScript"
+        backgroundImg={beach}
+        leftBtnTxt="Pairing Game"
+        leftBtnLink="https://thepairinggame.netlify.app/"
+        leftBtnExt="true"
+        twoButtons="true"
+        rightBtnTxt="GitHub Repository (Pairing Game)"
+        rightBtnExt="true"
+        rightBtnLink="https://github.com/Harrison365/fe-dom-mini-apps-new-m"
+        thirdBtnExt="true"
+        thirdBtnTxt="Paint"
+        threeButtons="true"
+        thirdBtnLink="https://paintwithbob.netlify.app/"
+        fourthBtnExt="true"
+        fourthBtnTxt="GitHub Repository (Paint)"
+        fourthButtons="true"
+        fourthBtnLink="https://github.com/Harrison365/paint"
+      />
+      <Item
+        id="leccysource"
+        title="3rd Party API Project"
+        desc="LeccySource.com - Built using React and the National Grid Open API. Domain purchased and configured."
+        backgroundImg={lavendar}
+        leftBtnTxt="leccysource.com"
+        leftBtnLink="https://leccysource.com/"
+        leftBtnExt="true"
+        rightBtnTxt="GitHub Repository"
+        rightBtnLink="https://github.com/Harrison365/leccy-source"
         rightBtnExt="true"
         twoButtons="true"
       />
