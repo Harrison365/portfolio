@@ -2,7 +2,7 @@ import React from "react";
 import Item from "./Item";
 import Car from "../Pictures/car.jpg";
 import beach from "../Pictures/beach.jpg";
-import lavendar from "../Pictures/lavendar.jpg";
+import beachSun from "../Pictures/beachSun.jpg";
 import Trees from "../Pictures/trees.jpg";
 import Road from "../Pictures/road.jpg";
 import Balloon from "../Pictures/balloons.jpg";
@@ -75,7 +75,7 @@ function Homepage() {
         id="leccysource"
         title="3rd Party API Project"
         desc="LeccySource.com - Built using React and the National Grid Open API. Domain purchased and configured."
-        backgroundImg={lavendar}
+        backgroundImg={beachSun}
         leftBtnTxt="leccysource.com"
         leftBtnLink="https://leccysource.com/"
         leftBtnExt="true"
